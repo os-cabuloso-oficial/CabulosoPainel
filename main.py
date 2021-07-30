@@ -30,6 +30,10 @@ while(Sair==False):
 			rg.consultar()
 		elif op==6:
 			datan.consultar()
+		elif op==7:
+
+		elif op==8:
+
 		elif op==0:
 			ui.clear();Sair=True
 	except:
