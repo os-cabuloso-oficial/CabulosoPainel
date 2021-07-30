@@ -23,7 +23,12 @@ while(Sair==False):
 			cpf.consultar()
 		elif op==3:
 			choice = int(ui.menu(ms0=f'\n{C}[{G}1{C}] Nome-1\n{C}[{G}2{C}] Nome-2'))
-			nome.consultar()
+			if choice ==1:
+				nome.consultar()
+			elif choice ==2:
+				nome2.consultar()
+			else:
+				ui.error()
 		elif op==4:
 			email.consultar()
 		elif op==5:
