@@ -31,9 +31,9 @@ while(Sair==False):
 		elif op==6:
 			datan.consultar()
 		elif op==7:
-
+			cep.consultar()
 		elif op==8:
-
+			placa.consultar()
 		elif op==0:
 			ui.clear();Sair=True
 	except:
