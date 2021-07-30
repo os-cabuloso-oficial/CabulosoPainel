@@ -4,6 +4,8 @@
 📱iSH
 apk add git
 apk add python
+apk add python2
+apk add python3
 apk add figlet
 git clone https://github.com/os-cabuloso-oficial/CabulosoPainel
 cd CabulosoPainel
