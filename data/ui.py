@@ -15,7 +15,7 @@ def banner():
     cor = [Fore.RED]
     banner = r"""
 ====================
-☯️ - Painel Privado dos Cabuloso! ☯️
+☯️ - Painel Privado dos Cabuloso! - ☯️
 ===================="""
     n = 0
     for char in banner:
