@@ -29,15 +29,15 @@ def clear():
 
 def menu(ms0):
 	clear();banner();print(result+ms0)
-	return input(f'\n{C}===> {G}')
+	return input(f'\n{C}===> {P}')
 
 def error():
 	text='Caractere(s) não reconhecido(s)';clear();banner();print(f'\n{C}====================\n[{P}Error!{C}] {text}\n====================');time.sleep(3)
 	
 def dialog1():
 	clear();banner();print(result)
-	return input(f'\n{C}===> {G}')
+	return input(f'\n{C}===> {P}')
 
 def dialog2(msg):
 	clear();banner()
-	return input(f'{result}\n{C}====================\n{msg}\n====================\n{C}{G}Deseja fazer uma nova consulta?\n{C}[{G}1{C}] Sim\n[{G}2{C}] Nao\n===> {G}')
+	return input(f'{result}\n{C}====================\n{msg}\n====================\n{C}{G}Deseja fazer uma nova consulta?\n{C}[{G}1{C}] Sim\n[{G}2{C}] Nao\n===> {P}')
