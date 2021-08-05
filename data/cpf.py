@@ -1,6 +1,5 @@
 import requests
 from data import ui
-#.
 def consultar():
 	Sair=False
 	while (Sair==False):
